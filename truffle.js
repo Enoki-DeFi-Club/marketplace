@@ -11,11 +11,6 @@ module.exports = {
       network_id: '*',
       gasPrice: 9000000000
     },
-    ropsten: {
-      provider: () => new HDWalletProvider(process.env.MNEMONIC, process.env.ROPSTEN_PROVIDER),
-      network_id: 3,
-      gasPrice: 10000000000
-    },
     mainnet: {
       ref: 'mainnet-prod',
       network_id: 1,
